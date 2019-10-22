@@ -213,7 +213,20 @@
     }
     p{
         text-align: center; 
-        
     }
+    .carImage{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+    }
+    .carTools{
+        display: flex;
+        flex-direction: row;
 
-    
+    }
+    .nowrap{
+        white-space: nowrap;
+    }
+    footer{
+        display: block;
+    }

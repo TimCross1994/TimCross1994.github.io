@@ -13,3 +13,7 @@ $(document).ready(function () {
       $('.animated-icon3').toggleClass('open');
     });
   });
+
+  ScrollReveal().reveal('.nav-link');
+  ScrollReveal().reveal('.header', {delay:600 });
+  ScrollReveal().reveal('.bio', {delay: 1000});

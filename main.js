@@ -15,5 +15,5 @@ $(document).ready(function () {
   });
 
   ScrollReveal().reveal('.nav-link');
-  ScrollReveal().reveal('.header', {delay:600 });
+  ScrollReveal().reveal('.header', {delay:1000 });
   ScrollReveal().reveal('.bio', {delay: 1000});

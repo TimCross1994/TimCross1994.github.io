@@ -227,14 +227,16 @@
     .nowrap{
         white-space: nowrap;
     }
-    footer{
-        display: block;
+    .contact {
+        font-size: 30px;
+        font-weight: bold;
     }
-
-    @media (max-width: 480px) {
-        #footer {
-            display: flex;
-            align-items: center; 
-        }
+    .contact-buttons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; 
+        
+       
     }
+    
     
